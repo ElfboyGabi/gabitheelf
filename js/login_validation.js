@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             message.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.6)';
 
             setTimeout(() => {
-                window.location.href = 'login.html';
+                window.location.href = '/html/login.html';
             }, 1500);
 
         } 
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
         message.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.6)';
 
         setTimeout(() => {
-            window.location.href = 'login.html';
+            window.location.href = '/html/login.html';
         }, 1500);
     };
 
@@ -103,11 +103,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-
-    // Load default content
-    if (window.location.pathname.endsWith('portfolio.html')) {
-        loadContent('home.html');
-    }
 });
 
 
