@@ -60,7 +60,7 @@ img {
     border-radius: 13px;
     font-size: 16px;
     color: #fff;
-    padding: 20px 45px 20;
+    padding: 20px 45px 20px;
 }
 
 .input-box input::placeholder {
