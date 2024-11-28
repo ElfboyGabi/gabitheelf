@@ -17,12 +17,6 @@ body {
     background-position: center;
 }
 
-img {
-    position: absolute;
-    scale: 5%;
-    transform: translateY(-220%);
-    padding-top: 5px;
-}
 .wrapper {
     width: 420px;
     background: transparent;
