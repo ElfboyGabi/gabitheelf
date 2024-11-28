@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgb(84, 9, 69);
+    color: #fff;
+}
+
+a.nav-link {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+a.nav-link.active {
+    color: #fff;
+}
+
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+}
+
+.brandcolor {
+    color: rgb(255, 179, 14);
+}
+
+section {
+    background-color: #310134;
+}
+
+nav ul li a {
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+a.nav-link:hover {
+    color: rgb(253, 156, 0) !important;
+    transform: translateY(10%) !important;
+    transition: 0.1s ease-in-out;
+}
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(255, 179, 14);
+    text-align: center;
+    
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-text {
+    color: #333;
+}
+
+.programs {
+    color: #fff;
+}
+
+button {
+    max-width: 70%;
+    border-radius: 50px !important;
+}
+
+button.btn {
+    background-color: rgb(255, 179, 14);
+    color: #333;
+    transform: translateY(0%);
+    transition: 0.3s ease-in-out;
+   
+}
+
+button.btn:hover {
+    background-color: rgb(34, 31, 33);
+    color: #fff;
+    transform: translateY(-15%);
+    transition: 0.3s ease-in-out;
+}
+
+#projects .projects {
+    margin-bottom: 50px;
+
+}
+
+#contact {
+    text-align: center;
+    background-color: rgb(84, 9, 69);
+    color: white;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.copyright {
+    max-height: 90px;
+    opacity: 50%;
+}
+
+p.header{
+    font-size: 39px;
+    font-weight: 900;
+    color: #ffbb00;
+    filter: drop-shadow(6px 6px 6px #1e0029);
+}
+
+.container .row .wrapper-header {
+    width: 420px;
+    background: rgb(90, 13, 75);
+    border: 2px transparent;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    filter: drop-shadow(6px 6px 6px #1e0029);
+    margin-bottom: 40px;
+}
+
+i.socials {
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+a:link {
+    color: white;
+    top: 0;
+    transition: top ease 0.5s;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  
+i.socials:hover{ 
+    transform: translateY(-10px);
+    transition: ease-in-out 0.3s;
+}
+
+
+
+section.moreprojects {
+    text-align: center;
+    color: white;
+    background: rgb(255,187,0);
+background: linear-gradient(180deg, rgba(255,187,0,1) 0%, rgba(84,9,69,1) 94%);
+}
+
+#moreprojects h1 {
+    text-align: center;
+    
+}
+
+p.comingsoon {
+    color:#ffffff;
+    transform: translateY(0);
+    transition: 0.3s ease-in-out;    
+}
+
+p.comingsoon:hover {
+    color:#ffffff;
+    font-weight: 1000;
+    font-size: 20pt;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.card {
+    transform: translateY(0px);
+    transition: 0.3s ease-in-out
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.2);
+    z-index: 10;
+    transition: 0.3s ease-in-out
+}
+
+section#portfolio {
+    margin-top: -5%;
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #29032d;
+    color: white;
+    overflow: hidden; /* Prevents scrolling during loading */
+}
+
+.loading-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: space-around; /* Space out the columns evenly */
+    width: 60%; /* Set a width for the loading container */
+}
+
+.loading-text {
+    font-size: 2rem;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease; /* Animation for fade */
+    text-align: center; /* Center the text */
+    flex: 1; /* Allow the text to grow equally */
+}
+
+.content {
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease; /* Animation for fade */
+}
+
+.fade-in {
+    opacity: 1; /* Fade in effect */
+}
+
+/* Add this to your CSS file */
+#loadingText1, #loadingText2, #loadingText3 {
+    opacity: 0; /* Start with hidden text */
+    transform: translateY(20px); /* Start slightly below its final position */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition for both opacity and transform */
+}
+
+#mainContent {
+    opacity: 0; /* Start with hidden main content */
+    transition: opacity 0.5s ease-in-out; /* Transition for the fade-in effect */
+}
+
+#loadingText2 {
+    color: rgb(255, 179, 14);
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+/* IMAGE */
+.container {
+    position: absolute;
+    overflow: hidden; /* Prevents overflow */
+    transform: translateY(-90%);
+}
+
+#movingImage {
+    width: 150px; /* Adjust the size as needed */
+    animation: moveUpDown 2s ease-in-out infinite; /* Animation properties */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    50% {
+        transform: translateY(-20px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Return to start position */
+    }
+}

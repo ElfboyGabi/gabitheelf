@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+
+nav {
+    background-color: rgb(90, 13, 75);
+    color: #fff ; 
+    font-weight: 700 !important;
+    filter: drop-shadow(6px 6px 6px #1e0029);
+}
+
+a.nav-link {
+    color: #ffffff !important;
+}
+
+a.nav-link.active {
+    color: #ffffff;
+}
+
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+}
+
+.brandcolor {
+    color: rgb(255, 179, 14);
+}
+
+section {
+    background-color: #310134;
+}
+
+
+nav ul li a {
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+a.nav-link:hover {
+    color: rgb(253, 156, 0) !important;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 60px;
+    color: rgb(255, 179, 14);
+    text-align: center;
+}
+
+.container .row .servicesdesc {
+    width: 420px;
+    background: rgb(90, 13, 75);
+    border: 2px transparent;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    filter: drop-shadow(6px 6px 6px #1e0029);
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+p.commission {
+  color:#ffffff;
+  font-weight: 700;
+}
+
+p.description {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card-title {
+  font-size: 39px;
+  font-weight: 900;
+}
+
+.card-title.price {
+  font-size: 39px;
+  font-weight: 900;
+  color: #ffbb00;
+  filter: drop-shadow(6px 6px 6px #1e0029);
+}
+
+
+.card-text {
+    color: #333;
+}
+
+p.card-text.benefits {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+img.img-fluid.commission-img {
+  transform: translateX(-20px);  
+  margin-bottom: 15px;
+}
+
+.programs {
+    color: #fff;
+}
+
+button {
+    max-width: 70%;
+    border-radius: 20px !important;
+    margin-bottom: 10pt;
+}
+
+button.btn {
+    background-color: rgb(255, 179, 14);
+    color: #333;
+    font-size: 13pt;
+}
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img {
+    max-width: 130% !important;
+    width: 130%;
+}
+
+#hero .card {
+    box-shadow: 11px 7px 16px rgba(1, 0, 1, 0.563);
+    border: 0;
+    text-align: center;
+    background: rgb(255,193,74);
+    background: linear-gradient(180deg, rgba(255,193,74,1) 0%, rgba(75,0,135,1) 59%);
+  }
+
+#others div.card-body {
+    box-shadow: 11px 7px 16px rgba(1, 0, 1, 0.563);
+    border: 0;
+    text-align: center;
+    background: rgb(255,193,74);
+  }
+
+#others i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#others .card-title {
+  font-size: 20px;
+}
+
+#others .card-text.text-left{
+  text-align: left;
+  font-size: 12pt;
+  font-weight: 600;
+  line-height: 1;
+}
+
+#others div.card.others {
+  min-height: 20px;
+}
+
+#hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+
+}
+
+#projects .projects {
+    margin-bottom: 50px;
+
+}
+
+#contact {
+    text-align: center;
+    background-color: rgb(84, 9, 69);
+    color: white;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.copyright {
+    max-height: 90px;
+    opacity: 50%;
+}
+
+i.bx.bxs-check-circle.green-icon {
+    left:16px;
+    transform: translateY(11%);
+    font-size: 15px;
+    color: rgb(52, 242, 52);
+    margin-right: 6px;
+}
+
+i.bx.bxs-x-circle.red-icon{
+  left:16px;
+    transform: translateY(11%);
+    font-size: 15px;
+    color: rgb(255, 59, 59);
+    margin-right: 6px;
+}
+
+i.bx.bx-chevron-right.others{
+    margin-left:-16px;
+    transform: translateY(21%);
+    font-size: 12px;
+    color: rgb(46, 2, 2);
+    margin-right: -5px;
+}
+
+i.socials {
+  font-size: 30px;
+  margin: 10px;
+}
+
+a:link {
+  color: white;
+  top: 0;
+  transition: top ease 0.5s;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+i.socials:hover{ 
+  transform: translateY(-10px);
+  transition: ease-in-out 0.3s;
+}
+
+div.illustrations:hover{ 
+  transform: translateY(-20px);
+  transition: ease-in-out 0.3s;
+}
