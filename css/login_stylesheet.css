@@ -12,9 +12,10 @@ body {
     justify-content: center; 
     align-items: center;
     min-height: 100vh;
-    background: url("assets/gabitheelf-animation.gif");
+    background-image: url("assets/gabitheelf-animation.gif");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .wrapper {
@@ -126,37 +127,4 @@ form div.incorrect label{
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
-    margin-top: 20px;
-}
-
-.register-link p a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.register-link p a:hover {
-    text-decoration: underline;
-}
-
-.copyright p{
-    font-size: 10px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.wrapper .register-message {
-    font-size: 14.5px;
-    padding: 8px;
-    text-align: center;
-    margin: 20px 0 15px;
-    text-shadow: 2px 2px 17px rgba(139, 181, 215, 0.709);
-  }
-
-  .wrapper .login-message {
-    font-size: 14.5px;
-    padding: 8px;
-    text-align: center;
-    margin: 20px 0 15px;
-    text-shadow: 2px 2px 17px rgba(139, 181, 215, 0.709);
-  }
+    margin-
