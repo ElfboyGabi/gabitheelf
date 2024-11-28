@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Redirect to another page after a delay
             setTimeout(() => {
-                window.location.href = "html/login.html"; // Change this to your target URL
+                window.location.href = "../html/login.html"; // Change this to your target URL
             }, 2000); // Wait for 2 seconds before redirecting (adjust as necessary)
         }, 1000); // Wait for fade-out transition to finish
     }
