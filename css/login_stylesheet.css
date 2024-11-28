@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     background-image: url("assets/gabitheelf-animation.gif");
     background-size: cover;
-    background-repeat: no-repeat
+    background-position: center;
 }
 
 @media (max-width: 768px) { /* Adjust for mobile devices */
