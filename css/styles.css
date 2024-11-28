@@ -66,6 +66,10 @@ body, html {
     transition: opacity 0.5s ease-in-out; /* Transition for the fade-in effect */
 }
 
+loading-text {
+    font-size: 30px;
+}
+
 #loadingText2 {
     color: rgb(255, 179, 14);
     font-weight: 900;
