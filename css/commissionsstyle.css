@@ -67,7 +67,7 @@ section {
 section h1 {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(255, 179, 14);
     text-align: center;
 }
@@ -117,6 +117,10 @@ p.description {
 
 .card-text {
     color: #333;
+}
+
+.card {
+  margin-top: 20px;
 }
 
 p.card-text.benefits {
