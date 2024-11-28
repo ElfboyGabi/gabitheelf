@@ -17,13 +17,6 @@ body {
     background-position: center;
 }
 
-@media (max-width: 768px) { /* Adjust for mobile devices */
-    body {
-        background-position: right center; /* Ensures the GIF fits within the viewport */
-        background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
-    }
-}
-
 img {
     position: absolute;
     scale: 5%;
@@ -73,7 +66,6 @@ img {
 .input-box input::placeholder {
     color: #fff;
     opacity: 40%;
-    
 }
 
 .input-box input:focus {
