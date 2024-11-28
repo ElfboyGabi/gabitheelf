@@ -12,9 +12,10 @@ body {
     justify-content: center; 
     align-items: center;
     min-height: 100vh;
-    background-image: url("assets/gabitheelf-animation.gif");
-    background-size: cover;
-    background-position: center;
+    background-image: url("assets/gabitheelf-animation.gif"); /* Ensure the path is correct */
+    background-size: cover; /* Adjusts the image to cover the entire area */
+    background-position: center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 @media (max-width: 768px) { /* Adjust for mobile devices */
@@ -23,7 +24,6 @@ body {
         background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
     }
 }
-
 
 .wrapper {
     width: 420px;
@@ -108,7 +108,7 @@ body {
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, -1);
     cursor: pointer;
-    font-size: 16px; /* Added 'px' for font size */
+    font-size: 16px; /* Ensure font size is specified */
     color: #333;
     font-weight: 600;
 }
