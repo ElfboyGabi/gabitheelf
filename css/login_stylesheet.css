@@ -66,6 +66,7 @@ img {
 .input-box input::placeholder {
     color: #fff;
     opacity: 40%;
+    margin-left: 16px;
 }
 
 .input-box input:focus {
