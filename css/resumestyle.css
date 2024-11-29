@@ -11,11 +11,28 @@ ol{
     margin-left: 0px;
 }
 
-.container{
-    margin-top: 50px;
-     box-sizing: border-box;
+.container {
+    box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .container-mobile {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    .navbar {
+        padding: 10px; /* Adjust navbar padding */
+    }
+    
+    .header-right {
+        padding: 15px; /* Adjust padding for right column */
+    }
+    
+    .col-lg-4, .col-lg-8 {
+        flex: 0 0 100%; /* Stack columns on small screens */
+        max-width: 100%; /* Ensure full width */
+    }
+}
 body{
     max-width: 100%;
     overflow-wrap: anywhere;
