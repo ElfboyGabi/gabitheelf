@@ -2,6 +2,7 @@
 
 * {
     font-family: "Poppins", "sans-serif";
+    box-sizing: border-box;
 }
 
 ol{
@@ -10,6 +11,16 @@ ol{
     text-align: left;
     margin-left: 0px;
 }
+
+
+body{
+    max-width: 100%;
+    background: url("https://media4.giphy.com/media/TpvFWFBtWY4UBcJPiw/200w.gif?cid=82a1493b1xl153qtm7bi088j9omzqa147y9o5eblwcy5fdf6&ep=v1_gifs_related&rid=200w.gif&ct=g") no-repeat;
+    background-size: 120%;
+    padding: 90px;
+    
+}
+
 
 .container {
     box-sizing: border-box;
@@ -33,14 +44,7 @@ ol{
         max-width: 100%; /* Ensure full width */
     }
 }
-body{
-    max-width: 100%;
-    overflow-wrap: anywhere;
-    background: url("https://media4.giphy.com/media/TpvFWFBtWY4UBcJPiw/200w.gif?cid=82a1493b1xl153qtm7bi088j9omzqa147y9o5eblwcy5fdf6&ep=v1_gifs_related&rid=200w.gif&ct=g") no-repeat;
-    background-size: 120%;
-    padding: 90px;
-    
-}
+
 
 .custom-bg {
     background-color: rgb(58, 11, 58);
