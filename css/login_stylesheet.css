@@ -7,12 +7,7 @@
     font-family: "Poppins", "sans-serif";
 }
 
-@media (max-width: 768px) { /* Adjust for mobile devices */
-    body {
-        background-position: -740px; /* Ensures the GIF fits within the viewport */
-        background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
-    }
-}
+
 
 .wrapper {
     width: 420px;
