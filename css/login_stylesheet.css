@@ -7,16 +7,41 @@
     font-family: "Poppins", "sans-serif";
 }
 
+body {
+    position: relative;
+    margin: 0;               /* Remove default body margin */
+    display: flex;           /* Use flex to position child elements */
+    justify-content: flex-start; /* Align children to the left */
+    height: 100vh;          /* Make sure the body takes full height */
+}
+
 
 
 .wrapper {
-    width: 420px;
+    width: max(40%, 600px);  /* Keep your existing width */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;      /* Center items inside the wrapper */
+    justify-content: center;   /* Center items vertically */
+    height: 100vh;
     background: transparent;
     border: 2px solid rgba(255,255,255,.2);
     backdrop-filter: blur(20px);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
+    position: absolute;       
+    left: 0;                  
+    top: 50%;                 
+    transform: translateY(-50%); 
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 20px 10px;  /* Adjust padding for smaller screens */
+        width: 100%;           /* Increase width for smaller screens */
+    }
 }
 
 .wrapper h1 {
@@ -139,16 +164,16 @@ form div.incorrect label{
 
 .wrapper .register-message {
     font-size: 14.5px;
-    padding: 8px;
     text-align: center;
     margin: 20px 0 15px;
-    text-shadow: 2px 2px 17px rgba(139, 181, 215, 0.709);
+    max-width: 50%;
+    transform: translateX(50%);
   }
 
   .wrapper .login-message {
     font-size: 14.5px;
-    padding: 8px;
     text-align: center;
     margin: 20px 0 15px;
-    text-shadow: 2px 2px 17px rgba(139, 181, 215, 0.709);
+    max-width: 50%;
+    transform: translateX(50%);
   }
