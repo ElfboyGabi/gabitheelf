@@ -18,24 +18,38 @@ body {
 
 
 .wrapper {
-    width: max(40%, 600px);  /* Keep your existing width */
+    width: max(40%, 600px); 
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    align-items: center;      /* Center items inside the wrapper */
-    justify-content: center;   /* Center items vertically */
+    align-items: center;      
+    justify-content: center;   
     height: 100vh;
-    background: transparent;
-    border: 2px solid rgba(255,255,255,.2);
-    backdrop-filter: blur(20px);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
     position: absolute;       
     left: 0;                  
     top: 50%;                 
     transform: translateY(-50%); 
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    overflow: hidden;         
 }
+
+.wrapper::before {
+    content: '';
+    position: absolute;      
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("https://i.pinimg.com/originals/b6/e2/08/b6e2089749c711d9509da32fa73ea10d.gif");
+    background-size: cover;
+    opacity: 0.5;            
+    z-index: -1;            
+}
+
 
 @media (max-width: 768px) {
     .wrapper {
