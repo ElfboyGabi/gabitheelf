@@ -14,6 +14,10 @@ body {
     padding-top: 90px;
 }
 
+.img-col img {
+    content: url('assets/2024-gabi7.png'); /* Default image */
+}
+
 @media (max-width: 768px) { /* Adjust the max-width as needed */
     .img-col img {
         content: url('assets/mobile2024-gabi7.png'); /* Mobile image */
