@@ -12,9 +12,16 @@ body {
     justify-content: center; 
     align-items: center;
     min-height: 100vh;
-    background-image: url("../assets/gabitheelf-animation.gif");
+    background-image: url("assets/gabitheelf-animation.gif");
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 768px) { /* Adjust for mobile devices */
+    body {
+        background-position: -740px; /* Ensures the GIF fits within the viewport */
+        background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
+    }
 }
 
 .wrapper {
