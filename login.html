@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gabi The Elf</title>
+        <link rel="stylesheet" type="text/css" href="css/login_stylesheet.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+        <script type="text/javascript" src="js/login_validation.js" defer></script>
+
+        <style>
+            body {
+                display: flex;
+                justify-content: center; 
+                align-items: center;
+                min-height: 100vh;
+                background-image: url("assets/gabitheelf-animation.gif");
+                background-size: cover;
+                background-position: center;
+            }
+
+            @media (max-width: 768px) { 
+                body {
+                background-position: -740px; 
+                background-attachment: fixed; 
+            }
+}
+        </style>
+
+        
+    </head>
+
+
+    <body>
+
+
+
+        <div class="wrapper">
+            
+            <form id="loginform" action="">
+                <h1>Welcome, elfling!</h1>
+                <div class="input-box">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <i class='bx bx-user'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class='bx bx-lock-open-alt' ></i>
+                </div>
+
+                <div class="login-message">
+                    <p id="login-message"></p>
+                </div>
+
+                
+
+                <button type="submit" class="btn"> Login </button>
+
+                <div class="register-link">
+                    <p>Don't have an account? <a href="register.html"> Register</a></p>
+                </div>             
+
+                <div class="copyright">
+                    <p>@ GabiTheElf on Instagram</p>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
+
