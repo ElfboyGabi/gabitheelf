@@ -58,12 +58,12 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('username', username);
         localStorage.setItem('password', password);
         localStorage.setItem('name', name);
-        message.textContent = 'Registration successful! Redirecting to login page...';
+        message.textContent = 'REGISTRATION SUCCESS!';
         message.style.fontWeight = '700';
-        message.style.fontSize = '14.5px';
         message.style.padding = '8px';
         message.style.color = '#ffa012'; 
         message.style.outline = 'none';
+        message.style.background = 'transparent';
 
         setTimeout(() => {
             window.location.href = 'login.html';
