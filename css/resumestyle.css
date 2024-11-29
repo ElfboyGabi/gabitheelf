@@ -24,6 +24,7 @@ body{
 
 .container {
     box-sizing: border-box;
+    width: 100%; /* Make the container take up 100% width on all devices */
 }
 
 @media (max-width: 768px) {
