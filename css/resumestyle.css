@@ -13,6 +13,7 @@ ol{
 
 .container{
     margin-top: 50px;
+     box-sizing: border-box;
 }
 
 body{
@@ -23,12 +24,6 @@ body{
     padding: 90px;
     
 }
-
-.container {
-    box-sizing: border-box;
-    display: flex;
-}
-
 
 .custom-bg {
     background-color: rgb(58, 11, 58);
